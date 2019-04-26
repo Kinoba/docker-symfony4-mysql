@@ -12,4 +12,10 @@ This is the image we use at Kinoba to start developing quickly on a Symfony 4 pr
     - php7.2-phpdbg
 - nodejs 8.x
 - yarn
-- phpunit
+- composer
+- ant
+- phpdox ([https://github.com/theseer/phpdox](https://github.com/theseer/phpdox))
+
+## Build
+
+`docker build -t kinoba/docker-symfony4-mysql .`
