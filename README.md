@@ -6,11 +6,12 @@ This is the image we use at Kinoba to start developing quickly on a Symfony 4 pr
 
 - phpdockerio/php72-fpm:latest
 - php-ext:
-    - php7.2-mysql
     - php-xdebug
     - php7.2-gd
     - php7.2-intl
+    - php7.2-mysql
     - php7.2-phpdbg
+    - php7.2-zip
 - nodejs 8.x
 - yarn
 - composer
@@ -20,3 +21,7 @@ This is the image we use at Kinoba to start developing quickly on a Symfony 4 pr
 ## Build
 
 `docker build -t kinoba/docker-symfony4-mysql .`
+
+## Publish
+
+`docker push kinoba/docker-symfony4-mysql`
